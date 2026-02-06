@@ -4,12 +4,6 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import {
-  Code2,
-  Palette,
-  Smartphone,
-  Globe,
-  Zap,
-  Lock,
   ArrowUpRight,
   PrinterIcon,
   Database,
@@ -72,7 +66,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: any = {
   hidden: { opacity: 0, y: 40 },
   visible: {
     opacity: 1,
